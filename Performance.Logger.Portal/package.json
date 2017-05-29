@@ -1,0 +1,30 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mabdo",
+  "license": "ISC",
+  "dependencies": {
+    "console-title": "^1.0.1",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.2",
+    "gulp-data": "^1.2.1",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-file": "^0.3.0",
+    "gulp-rename": "^1.2.2",
+    "http": "0.0.0",
+    "js2xmlparser": "^1.0.0",
+    "jshint": "^2.9.2",
+    "lodash": "^4.15.0",
+    "newman": "^3.0.1",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2"
+  }
+}
