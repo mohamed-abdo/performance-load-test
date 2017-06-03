@@ -5,6 +5,10 @@ This tool designed to consume APIs to figure, and log performance as well functi
 
 Self hosted web api server must be up & runing with adequte permission before running (executing), this api responsible to log results on data store, and later should summary report. (Performance.Logger.API)
 
+Technology Stack
+NodeJs, C# (Web API), Powershell, SQLExpress (C# code first).
+
 To run 10 process in parallel for 10 times, the following is sampe run from powershell console:
 
 .\runner.ps1 -unitTestScript "coll.postman_collection.json"-unitTestEnvironment "env.postman_environment.json" -parallelProcess 10 -iterations 10
+
